@@ -1,7 +1,9 @@
 package main
 
-import "github.com/mp091689/gtingen/cmd"
+import (
+	"github.com/MykytaPopov/gtingen/cmd/gtingen"
+)
 
 func main() {
-	cmd.Execute()
+	gtingen.Run()
 }
